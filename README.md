@@ -57,8 +57,6 @@ python score_sentences.py gpt2-presupposition
 
 ## References
 
-Marvin, R., & Linzen, T. (2018). Targeted syntactic evaluation of language models. In *Proceedings of EMNLP 2018* (pp. 1192–1202).
-
 Parrish, A., Schuster, S., Warstadt, A., Agha, O., Lee, S. H., Zhao, Z., Bowman, S. R., & Linzen, T. (2021). NOPE: A corpus of naturally-occurring presuppositions in English. In *Proceedings of CoNLL 2021* (pp. 349–366).
 
 Wilcox, E. G., Futrell, R., & Levy, R. (2024). Using computational models to test syntactic learnability. *Linguistic Inquiry, 55*(4), 805–848.
