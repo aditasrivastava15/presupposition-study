@@ -1,0 +1,289 @@
+set,item,name,context,verb,polarity,critical_word,sentence,surprisal_bits,critical_tokens
+context,1,Amy,support,stopped,,stopped,Amy used to smoke. Amy stopped smoking.,8.7417, stopped:8.74
+context,1,Amy,clash,stopped,,stopped,Amy has never smoked. Amy stopped smoking.,10.6345, stopped:10.63
+context,1,Amy,support,mentioned,,mentioned,Amy used to smoke. Amy mentioned smoking.,10.9089, mentioned:10.91
+context,1,Amy,clash,mentioned,,mentioned,Amy has never smoked. Amy mentioned smoking.,11.4416, mentioned:11.44
+negation,1,Amy,,stopped,affirmative,never,Amy stopped smoking. Amy had never smoked before.,4.2380, never:4.24
+negation,1,Amy,,stopped,negated,never,Amy did not stop smoking. Amy had never smoked before.,4.9899, never:4.99
+negation,1,Amy,,mentioned,affirmative,never,Amy mentioned smoking. Amy had never smoked before.,3.7261, never:3.73
+negation,1,Amy,,mentioned,negated,never,Amy did not mention smoking. Amy had never smoked before.,4.3583, never:4.36
+context,2,Ben,support,stopped,,stopped,Ben used to drink tea. Ben stopped drinking tea.,9.1827, stopped:9.18
+context,2,Ben,clash,stopped,,stopped,Ben has never drunk tea. Ben stopped drinking tea.,11.2057, stopped:11.21
+context,2,Ben,support,mentioned,,mentioned,Ben used to drink tea. Ben mentioned drinking tea.,11.0146, mentioned:11.01
+context,2,Ben,clash,mentioned,,mentioned,Ben has never drunk tea. Ben mentioned drinking tea.,12.1207, mentioned:12.12
+negation,2,Ben,,stopped,affirmative,never,Ben stopped drinking tea. Ben had never drunk tea before.,4.3911, never:4.39
+negation,2,Ben,,stopped,negated,never,Ben did not stop drinking tea. Ben had never drunk tea before.,4.7249, never:4.72
+negation,2,Ben,,mentioned,affirmative,never,Ben mentioned drinking tea. Ben had never drunk tea before.,3.5591, never:3.56
+negation,2,Ben,,mentioned,negated,never,Ben did not mention drinking tea. Ben had never drunk tea before.,4.4171, never:4.42
+context,3,Chloe,support,stopped,,stopped,Chloe used to play tennis. Chloe stopped playing tennis.,9.7448, stopped:9.74
+context,3,Chloe,clash,stopped,,stopped,Chloe has never played tennis. Chloe stopped playing tennis.,11.5401, stopped:11.54
+context,3,Chloe,support,mentioned,,mentioned,Chloe used to play tennis. Chloe mentioned playing tennis.,11.1189, mentioned:11.12
+context,3,Chloe,clash,mentioned,,mentioned,Chloe has never played tennis. Chloe mentioned playing tennis.,12.3452, mentioned:12.35
+negation,3,Chloe,,stopped,affirmative,never,Chloe stopped playing tennis. Chloe had never played tennis before.,4.0011, never:4.00
+negation,3,Chloe,,stopped,negated,never,Chloe did not stop playing tennis. Chloe had never played tennis before.,4.1980, never:4.20
+negation,3,Chloe,,mentioned,affirmative,never,Chloe mentioned playing tennis. Chloe had never played tennis before.,3.5013, never:3.50
+negation,3,Chloe,,mentioned,negated,never,Chloe did not mention playing tennis. Chloe had never played tennis before.,3.9007, never:3.90
+context,4,Daniel,support,stopped,,stopped,Daniel used to speak Spanish. Daniel stopped speaking Spanish.,10.1888, stopped:10.19
+context,4,Daniel,clash,stopped,,stopped,Daniel has never spoken Spanish. Daniel stopped speaking Spanish.,11.8214, stopped:11.82
+context,4,Daniel,support,mentioned,,mentioned,Daniel used to speak Spanish. Daniel mentioned speaking Spanish.,10.9004, mentioned:10.90
+context,4,Daniel,clash,mentioned,,mentioned,Daniel has never spoken Spanish. Daniel mentioned speaking Spanish.,11.6018, mentioned:11.60
+negation,4,Daniel,,stopped,affirmative,never,Daniel stopped speaking Spanish. Daniel had never spoken Spanish before.,4.9756, never:4.98
+negation,4,Daniel,,stopped,negated,never,Daniel did not stop speaking Spanish. Daniel had never spoken Spanish before.,5.1849, never:5.18
+negation,4,Daniel,,mentioned,affirmative,never,Daniel mentioned speaking Spanish. Daniel had never spoken Spanish before.,4.1451, never:4.15
+negation,4,Daniel,,mentioned,negated,never,Daniel did not mention speaking Spanish. Daniel had never spoken Spanish before.,5.0320, never:5.03
+context,5,Elena,support,stopped,,stopped,Elena used to bake bread. Elena stopped baking bread.,9.8270, stopped:9.83
+context,5,Elena,clash,stopped,,stopped,Elena has never baked bread. Elena stopped baking bread.,11.5892, stopped:11.59
+context,5,Elena,support,mentioned,,mentioned,Elena used to bake bread. Elena mentioned baking bread.,10.8288, mentioned:10.83
+context,5,Elena,clash,mentioned,,mentioned,Elena has never baked bread. Elena mentioned baking bread.,13.1013, mentioned:13.10
+negation,5,Elena,,stopped,affirmative,never,Elena stopped baking bread. Elena had never baked bread before.,5.0178, never:5.02
+negation,5,Elena,,stopped,negated,never,Elena did not stop baking bread. Elena had never baked bread before.,5.1665, never:5.17
+negation,5,Elena,,mentioned,affirmative,never,Elena mentioned baking bread. Elena had never baked bread before.,4.3477, never:4.35
+negation,5,Elena,,mentioned,negated,never,Elena did not mention baking bread. Elena had never baked bread before.,4.9559, never:4.96
+context,6,Felix,support,stopped,,stopped,Felix used to ride horses. Felix stopped riding horses.,8.8301, stopped:8.83
+context,6,Felix,clash,stopped,,stopped,Felix has never ridden horses. Felix stopped riding horses.,10.1595, stopped:10.16
+context,6,Felix,support,mentioned,,mentioned,Felix used to ride horses. Felix mentioned riding horses.,11.3680, mentioned:11.37
+context,6,Felix,clash,mentioned,,mentioned,Felix has never ridden horses. Felix mentioned riding horses.,11.8498, mentioned:11.85
+negation,6,Felix,,stopped,affirmative,never,Felix stopped riding horses. Felix had never ridden horses before.,5.3526, never:5.35
+negation,6,Felix,,stopped,negated,never,Felix did not stop riding horses. Felix had never ridden horses before.,5.3936, never:5.39
+negation,6,Felix,,mentioned,affirmative,never,Felix mentioned riding horses. Felix had never ridden horses before.,4.3676, never:4.37
+negation,6,Felix,,mentioned,negated,never,Felix did not mention riding horses. Felix had never ridden horses before.,5.0770, never:5.08
+context,7,Grace,support,stopped,,stopped,Grace used to knit scarves. Grace stopped knitting scarves.,9.6463, stopped:9.65
+context,7,Grace,clash,stopped,,stopped,Grace has never knitted scarves. Grace stopped knitting scarves.,11.6948, stopped:11.69
+context,7,Grace,support,mentioned,,mentioned,Grace used to knit scarves. Grace mentioned knitting scarves.,11.1376, mentioned:11.14
+context,7,Grace,clash,mentioned,,mentioned,Grace has never knitted scarves. Grace mentioned knitting scarves.,12.7961, mentioned:12.80
+negation,7,Grace,,stopped,affirmative,never,Grace stopped knitting scarves. Grace had never knitted scarves before.,4.7542, never:4.75
+negation,7,Grace,,stopped,negated,never,Grace did not stop knitting scarves. Grace had never knitted scarves before.,5.3334, never:5.33
+negation,7,Grace,,mentioned,affirmative,never,Grace mentioned knitting scarves. Grace had never knitted scarves before.,4.6072, never:4.61
+negation,7,Grace,,mentioned,negated,never,Grace did not mention knitting scarves. Grace had never knitted scarves before.,4.9196, never:4.92
+context,8,Henry,support,stopped,,stopped,Henry used to play chess. Henry stopped playing chess.,11.7921, stopped:11.79
+context,8,Henry,clash,stopped,,stopped,Henry has never played chess. Henry stopped playing chess.,12.6357, stopped:12.64
+context,8,Henry,support,mentioned,,mentioned,Henry used to play chess. Henry mentioned playing chess.,10.4748, mentioned:10.47
+context,8,Henry,clash,mentioned,,mentioned,Henry has never played chess. Henry mentioned playing chess.,12.1527, mentioned:12.15
+negation,8,Henry,,stopped,affirmative,never,Henry stopped playing chess. Henry had never played chess before.,4.3572, never:4.36
+negation,8,Henry,,stopped,negated,never,Henry did not stop playing chess. Henry had never played chess before.,5.3922, never:5.39
+negation,8,Henry,,mentioned,affirmative,never,Henry mentioned playing chess. Henry had never played chess before.,4.7316, never:4.73
+negation,8,Henry,,mentioned,negated,never,Henry did not mention playing chess. Henry had never played chess before.,4.6801, never:4.68
+context,9,Iris,support,stopped,,stopped,Iris used to collect stamps. Iris stopped collecting stamps.,9.2301, stopped:9.23
+context,9,Iris,clash,stopped,,stopped,Iris has never collected stamps. Iris stopped collecting stamps.,11.0397, stopped:11.04
+context,9,Iris,support,mentioned,,mentioned,Iris used to collect stamps. Iris mentioned collecting stamps.,10.7596, mentioned:10.76
+context,9,Iris,clash,mentioned,,mentioned,Iris has never collected stamps. Iris mentioned collecting stamps.,12.3454, mentioned:12.35
+negation,9,Iris,,stopped,affirmative,never,Iris stopped collecting stamps. Iris had never collected stamps before.,5.3859, never:5.39
+negation,9,Iris,,stopped,negated,never,Iris did not stop collecting stamps. Iris had never collected stamps before.,5.6833, never:5.68
+negation,9,Iris,,mentioned,affirmative,never,Iris mentioned collecting stamps. Iris had never collected stamps before.,4.7647, never:4.76
+negation,9,Iris,,mentioned,negated,never,Iris did not mention collecting stamps. Iris had never collected stamps before.,5.2875, never:5.29
+context,10,Jack,support,stopped,,stopped,Jack used to swim laps. Jack stopped swimming laps.,10.2321, stopped:10.23
+context,10,Jack,clash,stopped,,stopped,Jack has never swum laps. Jack stopped swimming laps.,11.9407, stopped:11.94
+context,10,Jack,support,mentioned,,mentioned,Jack used to swim laps. Jack mentioned swimming laps.,13.6754, mentioned:13.68
+context,10,Jack,clash,mentioned,,mentioned,Jack has never swum laps. Jack mentioned swimming laps.,15.1480, mentioned:15.15
+negation,10,Jack,,stopped,affirmative,never,Jack stopped swimming laps. Jack had never swum laps before.,4.6837, never:4.68
+negation,10,Jack,,stopped,negated,never,Jack did not stop swimming laps. Jack had never swum laps before.,5.1717, never:5.17
+negation,10,Jack,,mentioned,affirmative,never,Jack mentioned swimming laps. Jack had never swum laps before.,3.7372, never:3.74
+negation,10,Jack,,mentioned,negated,never,Jack did not mention swimming laps. Jack had never swum laps before.,4.3964, never:4.40
+context,11,Kara,support,stopped,,stopped,Kara used to write poetry. Kara stopped writing poetry.,11.2194, stopped:11.22
+context,11,Kara,clash,stopped,,stopped,Kara has never written poetry. Kara stopped writing poetry.,12.3632, stopped:12.36
+context,11,Kara,support,mentioned,,mentioned,Kara used to write poetry. Kara mentioned writing poetry.,11.0814, mentioned:11.08
+context,11,Kara,clash,mentioned,,mentioned,Kara has never written poetry. Kara mentioned writing poetry.,12.7566, mentioned:12.76
+negation,11,Kara,,stopped,affirmative,never,Kara stopped writing poetry. Kara had never written poetry before.,4.6188, never:4.62
+negation,11,Kara,,stopped,negated,never,Kara did not stop writing poetry. Kara had never written poetry before.,5.2589, never:5.26
+negation,11,Kara,,mentioned,affirmative,never,Kara mentioned writing poetry. Kara had never written poetry before.,4.7265, never:4.73
+negation,11,Kara,,mentioned,negated,never,Kara did not mention writing poetry. Kara had never written poetry before.,4.7220, never:4.72
+context,12,Leo,support,stopped,,stopped,Leo used to garden. Leo stopped gardening.,10.8304, stopped:10.83
+context,12,Leo,clash,stopped,,stopped,Leo has never gardened. Leo stopped gardening.,11.9748, stopped:11.97
+context,12,Leo,support,mentioned,,mentioned,Leo used to garden. Leo mentioned gardening.,11.6133, mentioned:11.61
+context,12,Leo,clash,mentioned,,mentioned,Leo has never gardened. Leo mentioned gardening.,12.9495, mentioned:12.95
+negation,12,Leo,,stopped,affirmative,never,Leo stopped gardening. Leo had never gardened before.,5.0054, never:5.01
+negation,12,Leo,,stopped,negated,never,Leo did not stop gardening. Leo had never gardened before.,5.5320, never:5.53
+negation,12,Leo,,mentioned,affirmative,never,Leo mentioned gardening. Leo had never gardened before.,4.4353, never:4.44
+negation,12,Leo,,mentioned,negated,never,Leo did not mention gardening. Leo had never gardened before.,4.7503, never:4.75
+context,13,Maya,support,stopped,,stopped,Maya used to teach math. Maya stopped teaching math.,11.1125, stopped:11.11
+context,13,Maya,clash,stopped,,stopped,Maya has never taught math. Maya stopped teaching math.,12.1414, stopped:12.14
+context,13,Maya,support,mentioned,,mentioned,Maya used to teach math. Maya mentioned teaching math.,11.9242, mentioned:11.92
+context,13,Maya,clash,mentioned,,mentioned,Maya has never taught math. Maya mentioned teaching math.,13.2204, mentioned:13.22
+negation,13,Maya,,stopped,affirmative,never,Maya stopped teaching math. Maya had never taught math before.,5.4692, never:5.47
+negation,13,Maya,,stopped,negated,never,Maya did not stop teaching math. Maya had never taught math before.,5.2756, never:5.28
+negation,13,Maya,,mentioned,affirmative,never,Maya mentioned teaching math. Maya had never taught math before.,4.6981, never:4.70
+negation,13,Maya,,mentioned,negated,never,Maya did not mention teaching math. Maya had never taught math before.,4.7977, never:4.80
+context,14,Noah,support,stopped,,stopped,Noah used to ski. Noah stopped skiing.,9.5354, stopped:9.54
+context,14,Noah,clash,stopped,,stopped,Noah has never skied. Noah stopped skiing.,9.8973, stopped:9.90
+context,14,Noah,support,mentioned,,mentioned,Noah used to ski. Noah mentioned skiing.,12.1644, mentioned:12.16
+context,14,Noah,clash,mentioned,,mentioned,Noah has never skied. Noah mentioned skiing.,13.2994, mentioned:13.30
+negation,14,Noah,,stopped,affirmative,never,Noah stopped skiing. Noah had never skied before.,4.9247, never:4.92
+negation,14,Noah,,stopped,negated,never,Noah did not stop skiing. Noah had never skied before.,5.0874, never:5.09
+negation,14,Noah,,mentioned,affirmative,never,Noah mentioned skiing. Noah had never skied before.,4.5478, never:4.55
+negation,14,Noah,,mentioned,negated,never,Noah did not mention skiing. Noah had never skied before.,4.6521, never:4.65
+context,15,Olivia,support,stopped,,stopped,Olivia used to paint. Olivia stopped painting.,9.5456, stopped:9.55
+context,15,Olivia,clash,stopped,,stopped,Olivia has never painted. Olivia stopped painting.,10.9241, stopped:10.92
+context,15,Olivia,support,mentioned,,mentioned,Olivia used to paint. Olivia mentioned painting.,11.5015, mentioned:11.50
+context,15,Olivia,clash,mentioned,,mentioned,Olivia has never painted. Olivia mentioned painting.,13.1737, mentioned:13.17
+negation,15,Olivia,,stopped,affirmative,never,Olivia stopped painting. Olivia had never painted before.,5.0860, never:5.09
+negation,15,Olivia,,stopped,negated,never,Olivia did not stop painting. Olivia had never painted before.,5.3751, never:5.38
+negation,15,Olivia,,mentioned,affirmative,never,Olivia mentioned painting. Olivia had never painted before.,4.6286, never:4.63
+negation,15,Olivia,,mentioned,negated,never,Olivia did not mention painting. Olivia had never painted before.,4.9415, never:4.94
+context,16,Peter,support,stopped,,stopped,Peter used to gamble. Peter stopped gambling.,10.3447, stopped:10.34
+context,16,Peter,clash,stopped,,stopped,Peter has never gambled. Peter stopped gambling.,12.2183, stopped:12.22
+context,16,Peter,support,mentioned,,mentioned,Peter used to gamble. Peter mentioned gambling.,11.4235, mentioned:11.42
+context,16,Peter,clash,mentioned,,mentioned,Peter has never gambled. Peter mentioned gambling.,13.9942, mentioned:13.99
+negation,16,Peter,,stopped,affirmative,never,Peter stopped gambling. Peter had never gambled before.,5.1874, never:5.19
+negation,16,Peter,,stopped,negated,never,Peter did not stop gambling. Peter had never gambled before.,6.8154, never:6.82
+negation,16,Peter,,mentioned,affirmative,never,Peter mentioned gambling. Peter had never gambled before.,4.8708, never:4.87
+negation,16,Peter,,mentioned,negated,never,Peter did not mention gambling. Peter had never gambled before.,5.2329, never:5.23
+context,17,Quinn,support,stopped,,stopped,Quinn used to jog. Quinn stopped jogging.,8.2038, stopped:8.20
+context,17,Quinn,clash,stopped,,stopped,Quinn has never jogged. Quinn stopped jogging.,9.8518, stopped:9.85
+context,17,Quinn,support,mentioned,,mentioned,Quinn used to jog. Quinn mentioned jogging.,11.3012, mentioned:11.30
+context,17,Quinn,clash,mentioned,,mentioned,Quinn has never jogged. Quinn mentioned jogging.,12.5045, mentioned:12.50
+negation,17,Quinn,,stopped,affirmative,never,Quinn stopped jogging. Quinn had never jogged before.,4.6994, never:4.70
+negation,17,Quinn,,stopped,negated,never,Quinn did not stop jogging. Quinn had never jogged before.,5.1624, never:5.16
+negation,17,Quinn,,mentioned,affirmative,never,Quinn mentioned jogging. Quinn had never jogged before.,4.5751, never:4.58
+negation,17,Quinn,,mentioned,negated,never,Quinn did not mention jogging. Quinn had never jogged before.,4.8792, never:4.88
+context,18,Rosa,support,stopped,,stopped,Rosa used to sing. Rosa stopped singing.,9.8610, stopped:9.86
+context,18,Rosa,clash,stopped,,stopped,Rosa has never sung. Rosa stopped singing.,10.4364, stopped:10.44
+context,18,Rosa,support,mentioned,,mentioned,Rosa used to sing. Rosa mentioned singing.,11.7936, mentioned:11.79
+context,18,Rosa,clash,mentioned,,mentioned,Rosa has never sung. Rosa mentioned singing.,13.3217, mentioned:13.32
+negation,18,Rosa,,stopped,affirmative,never,Rosa stopped singing. Rosa had never sung before.,5.7264, never:5.73
+negation,18,Rosa,,stopped,negated,never,Rosa did not stop singing. Rosa had never sung before.,5.9604, never:5.96
+negation,18,Rosa,,mentioned,affirmative,never,Rosa mentioned singing. Rosa had never sung before.,5.0834, never:5.08
+negation,18,Rosa,,mentioned,negated,never,Rosa did not mention singing. Rosa had never sung before.,5.7131, never:5.71
+context,19,Sam,support,stopped,,stopped,Sam used to cycle. Sam stopped cycling.,9.0270, stopped:9.03
+context,19,Sam,clash,stopped,,stopped,Sam has never cycled. Sam stopped cycling.,10.2619, stopped:10.26
+context,19,Sam,support,mentioned,,mentioned,Sam used to cycle. Sam mentioned cycling.,12.5921, mentioned:12.59
+context,19,Sam,clash,mentioned,,mentioned,Sam has never cycled. Sam mentioned cycling.,13.3867, mentioned:13.39
+negation,19,Sam,,stopped,affirmative,never,Sam stopped cycling. Sam had never cycled before.,4.8817, never:4.88
+negation,19,Sam,,stopped,negated,never,Sam did not stop cycling. Sam had never cycled before.,5.3607, never:5.36
+negation,19,Sam,,mentioned,affirmative,never,Sam mentioned cycling. Sam had never cycled before.,4.0144, never:4.01
+negation,19,Sam,,mentioned,negated,never,Sam did not mention cycling. Sam had never cycled before.,4.7601, never:4.76
+context,20,Tara,support,stopped,,stopped,Tara used to cook. Tara stopped cooking.,10.6110, stopped:10.61
+context,20,Tara,clash,stopped,,stopped,Tara has never cooked. Tara stopped cooking.,11.9238, stopped:11.92
+context,20,Tara,support,mentioned,,mentioned,Tara used to cook. Tara mentioned cooking.,11.2919, mentioned:11.29
+context,20,Tara,clash,mentioned,,mentioned,Tara has never cooked. Tara mentioned cooking.,12.7717, mentioned:12.77
+negation,20,Tara,,stopped,affirmative,never,Tara stopped cooking. Tara had never cooked before.,5.3224, never:5.32
+negation,20,Tara,,stopped,negated,never,Tara did not stop cooking. Tara had never cooked before.,5.3570, never:5.36
+negation,20,Tara,,mentioned,affirmative,never,Tara mentioned cooking. Tara had never cooked before.,4.4243, never:4.42
+negation,20,Tara,,mentioned,negated,never,Tara did not mention cooking. Tara had never cooked before.,4.7297, never:4.73
+context,21,Uma,support,stopped,,stopped,Uma used to play violin. Uma stopped playing violin.,10.4049, stopped:10.40
+context,21,Uma,clash,stopped,,stopped,Uma has never played violin. Uma stopped playing violin.,11.1112, stopped:11.11
+context,21,Uma,support,mentioned,,mentioned,Uma used to play violin. Uma mentioned playing violin.,11.9309, mentioned:11.93
+context,21,Uma,clash,mentioned,,mentioned,Uma has never played violin. Uma mentioned playing violin.,13.0918, mentioned:13.09
+negation,21,Uma,,stopped,affirmative,never,Uma stopped playing violin. Uma had never played violin before.,4.4241, never:4.42
+negation,21,Uma,,stopped,negated,never,Uma did not stop playing violin. Uma had never played violin before.,4.9480, never:4.95
+negation,21,Uma,,mentioned,affirmative,never,Uma mentioned playing violin. Uma had never played violin before.,4.0564, never:4.06
+negation,21,Uma,,mentioned,negated,never,Uma did not mention playing violin. Uma had never played violin before.,4.6393, never:4.64
+context,22,Victor,support,stopped,,stopped,Victor used to drink coffee. Victor stopped drinking coffee.,10.0878, stopped:10.09
+context,22,Victor,clash,stopped,,stopped,Victor has never drunk coffee. Victor stopped drinking coffee.,11.3126, stopped:11.31
+context,22,Victor,support,mentioned,,mentioned,Victor used to drink coffee. Victor mentioned drinking coffee.,11.4313, mentioned:11.43
+context,22,Victor,clash,mentioned,,mentioned,Victor has never drunk coffee. Victor mentioned drinking coffee.,12.3636, mentioned:12.36
+negation,22,Victor,,stopped,affirmative,never,Victor stopped drinking coffee. Victor had never drunk coffee before.,5.3160, never:5.32
+negation,22,Victor,,stopped,negated,never,Victor did not stop drinking coffee. Victor had never drunk coffee before.,5.2545, never:5.25
+negation,22,Victor,,mentioned,affirmative,never,Victor mentioned drinking coffee. Victor had never drunk coffee before.,4.5567, never:4.56
+negation,22,Victor,,mentioned,negated,never,Victor did not mention drinking coffee. Victor had never drunk coffee before.,4.9135, never:4.91
+context,23,Wendy,support,stopped,,stopped,Wendy used to read novels. Wendy stopped reading novels.,10.3382, stopped:10.34
+context,23,Wendy,clash,stopped,,stopped,Wendy has never read novels. Wendy stopped reading novels.,11.8541, stopped:11.85
+context,23,Wendy,support,mentioned,,mentioned,Wendy used to read novels. Wendy mentioned reading novels.,10.5201, mentioned:10.52
+context,23,Wendy,clash,mentioned,,mentioned,Wendy has never read novels. Wendy mentioned reading novels.,11.6464, mentioned:11.65
+negation,23,Wendy,,stopped,affirmative,never,Wendy stopped reading novels. Wendy had never read novels before.,4.5837, never:4.58
+negation,23,Wendy,,stopped,negated,never,Wendy did not stop reading novels. Wendy had never read novels before.,4.7254, never:4.73
+negation,23,Wendy,,mentioned,affirmative,never,Wendy mentioned reading novels. Wendy had never read novels before.,4.2891, never:4.29
+negation,23,Wendy,,mentioned,negated,never,Wendy did not mention reading novels. Wendy had never read novels before.,4.4487, never:4.45
+context,24,Zach,support,stopped,,stopped,Zach used to study late. Zach stopped studying late.,11.2218, stopped:11.22
+context,24,Zach,clash,stopped,,stopped,Zach has never studied late. Zach stopped studying late.,12.1731, stopped:12.17
+context,24,Zach,support,mentioned,,mentioned,Zach used to study late. Zach mentioned studying late.,10.1975, mentioned:10.20
+context,24,Zach,clash,mentioned,,mentioned,Zach has never studied late. Zach mentioned studying late.,11.2242, mentioned:11.22
+negation,24,Zach,,stopped,affirmative,never,Zach stopped studying late. Zach had never studied late before.,4.8976, never:4.90
+negation,24,Zach,,stopped,negated,never,Zach did not stop studying late. Zach had never studied late before.,5.0309, never:5.03
+negation,24,Zach,,mentioned,affirmative,never,Zach mentioned studying late. Zach had never studied late before.,4.8211, never:4.82
+negation,24,Zach,,mentioned,negated,never,Zach did not mention studying late. Zach had never studied late before.,4.9577, never:4.96
+started,1,Amy,,started,affirmative,already,Amy started smoking. Amy had already been smoking.,6.7555, already:6.76
+started,1,Amy,,started,negated,already,Amy did not start smoking. Amy had already been smoking.,6.2221, already:6.22
+started,1,Amy,,mentioned,affirmative,already,Amy mentioned smoking. Amy had already been smoking.,6.5658, already:6.57
+started,1,Amy,,mentioned,negated,already,Amy did not mention smoking. Amy had already been smoking.,6.4060, already:6.41
+started,2,Ben,,started,affirmative,already,Ben started drinking tea. Ben had already been drinking tea.,6.4094, already:6.41
+started,2,Ben,,started,negated,already,Ben did not start drinking tea. Ben had already been drinking tea.,6.2356, already:6.24
+started,2,Ben,,mentioned,affirmative,already,Ben mentioned drinking tea. Ben had already been drinking tea.,5.9511, already:5.95
+started,2,Ben,,mentioned,negated,already,Ben did not mention drinking tea. Ben had already been drinking tea.,6.1218, already:6.12
+started,3,Chloe,,started,affirmative,already,Chloe started playing tennis. Chloe had already been playing tennis.,6.5945, already:6.59
+started,3,Chloe,,started,negated,already,Chloe did not start playing tennis. Chloe had already been playing tennis.,5.7619, already:5.76
+started,3,Chloe,,mentioned,affirmative,already,Chloe mentioned playing tennis. Chloe had already been playing tennis.,6.0534, already:6.05
+started,3,Chloe,,mentioned,negated,already,Chloe did not mention playing tennis. Chloe had already been playing tennis.,5.7018, already:5.70
+started,4,Daniel,,started,affirmative,already,Daniel started speaking Spanish. Daniel had already been speaking Spanish.,5.7256, already:5.73
+started,4,Daniel,,started,negated,already,Daniel did not start speaking Spanish. Daniel had already been speaking Spanish.,5.1940, already:5.19
+started,4,Daniel,,mentioned,affirmative,already,Daniel mentioned speaking Spanish. Daniel had already been speaking Spanish.,5.5003, already:5.50
+started,4,Daniel,,mentioned,negated,already,Daniel did not mention speaking Spanish. Daniel had already been speaking Spanish.,5.2166, already:5.22
+started,5,Elena,,started,affirmative,already,Elena started baking bread. Elena had already been baking bread.,4.7393, already:4.74
+started,5,Elena,,started,negated,already,Elena did not start baking bread. Elena had already been baking bread.,4.2172, already:4.22
+started,5,Elena,,mentioned,affirmative,already,Elena mentioned baking bread. Elena had already been baking bread.,4.7719, already:4.77
+started,5,Elena,,mentioned,negated,already,Elena did not mention baking bread. Elena had already been baking bread.,4.7995, already:4.80
+started,6,Felix,,started,affirmative,already,Felix started riding horses. Felix had already been riding horses.,5.9677, already:5.97
+started,6,Felix,,started,negated,already,Felix did not start riding horses. Felix had already been riding horses.,4.9310, already:4.93
+started,6,Felix,,mentioned,affirmative,already,Felix mentioned riding horses. Felix had already been riding horses.,5.7795, already:5.78
+started,6,Felix,,mentioned,negated,already,Felix did not mention riding horses. Felix had already been riding horses.,5.3546, already:5.35
+started,7,Grace,,started,affirmative,already,Grace started knitting scarves. Grace had already been knitting scarves.,5.4220, already:5.42
+started,7,Grace,,started,negated,already,Grace did not start knitting scarves. Grace had already been knitting scarves.,4.5318, already:4.53
+started,7,Grace,,mentioned,affirmative,already,Grace mentioned knitting scarves. Grace had already been knitting scarves.,5.1017, already:5.10
+started,7,Grace,,mentioned,negated,already,Grace did not mention knitting scarves. Grace had already been knitting scarves.,5.0589, already:5.06
+started,8,Henry,,started,affirmative,already,Henry started playing chess. Henry had already been playing chess.,5.7356, already:5.74
+started,8,Henry,,started,negated,already,Henry did not start playing chess. Henry had already been playing chess.,4.8400, already:4.84
+started,8,Henry,,mentioned,affirmative,already,Henry mentioned playing chess. Henry had already been playing chess.,6.0364, already:6.04
+started,8,Henry,,mentioned,negated,already,Henry did not mention playing chess. Henry had already been playing chess.,5.4898, already:5.49
+started,9,Iris,,started,affirmative,already,Iris started collecting stamps. Iris had already been collecting stamps.,5.3294, already:5.33
+started,9,Iris,,started,negated,already,Iris did not start collecting stamps. Iris had already been collecting stamps.,4.5388, already:4.54
+started,9,Iris,,mentioned,affirmative,already,Iris mentioned collecting stamps. Iris had already been collecting stamps.,4.8965, already:4.90
+started,9,Iris,,mentioned,negated,already,Iris did not mention collecting stamps. Iris had already been collecting stamps.,4.9360, already:4.94
+started,10,Jack,,started,affirmative,already,Jack started swimming laps. Jack had already been swimming laps.,5.9185, already:5.92
+started,10,Jack,,started,negated,already,Jack did not start swimming laps. Jack had already been swimming laps.,5.2490, already:5.25
+started,10,Jack,,mentioned,affirmative,already,Jack mentioned swimming laps. Jack had already been swimming laps.,6.2218, already:6.22
+started,10,Jack,,mentioned,negated,already,Jack did not mention swimming laps. Jack had already been swimming laps.,5.7205, already:5.72
+started,11,Kara,,started,affirmative,already,Kara started writing poetry. Kara had already been writing poetry.,5.4589, already:5.46
+started,11,Kara,,started,negated,already,Kara did not start writing poetry. Kara had already been writing poetry.,4.6503, already:4.65
+started,11,Kara,,mentioned,affirmative,already,Kara mentioned writing poetry. Kara had already been writing poetry.,5.1818, already:5.18
+started,11,Kara,,mentioned,negated,already,Kara did not mention writing poetry. Kara had already been writing poetry.,5.3577, already:5.36
+started,12,Leo,,started,affirmative,already,Leo started gardening. Leo had already been gardening.,5.2989, already:5.30
+started,12,Leo,,started,negated,already,Leo did not start gardening. Leo had already been gardening.,4.6359, already:4.64
+started,12,Leo,,mentioned,affirmative,already,Leo mentioned gardening. Leo had already been gardening.,5.1785, already:5.18
+started,12,Leo,,mentioned,negated,already,Leo did not mention gardening. Leo had already been gardening.,4.9307, already:4.93
+started,13,Maya,,started,affirmative,already,Maya started teaching math. Maya had already been teaching math.,5.6287, already:5.63
+started,13,Maya,,started,negated,already,Maya did not start teaching math. Maya had already been teaching math.,4.8766, already:4.88
+started,13,Maya,,mentioned,affirmative,already,Maya mentioned teaching math. Maya had already been teaching math.,5.3394, already:5.34
+started,13,Maya,,mentioned,negated,already,Maya did not mention teaching math. Maya had already been teaching math.,5.4251, already:5.43
+started,14,Noah,,started,affirmative,already,Noah started skiing. Noah had already been skiing.,6.1028, already:6.10
+started,14,Noah,,started,negated,already,Noah did not start skiing. Noah had already been skiing.,5.0552, already:5.06
+started,14,Noah,,mentioned,affirmative,already,Noah mentioned skiing. Noah had already been skiing.,6.5893, already:6.59
+started,14,Noah,,mentioned,negated,already,Noah did not mention skiing. Noah had already been skiing.,5.8710, already:5.87
+started,15,Olivia,,started,affirmative,already,Olivia started painting. Olivia had already been painting.,5.2189, already:5.22
+started,15,Olivia,,started,negated,already,Olivia did not start painting. Olivia had already been painting.,4.6319, already:4.63
+started,15,Olivia,,mentioned,affirmative,already,Olivia mentioned painting. Olivia had already been painting.,5.4360, already:5.44
+started,15,Olivia,,mentioned,negated,already,Olivia did not mention painting. Olivia had already been painting.,5.1908, already:5.19
+started,16,Peter,,started,affirmative,already,Peter started gambling. Peter had already been gambling.,6.1302, already:6.13
+started,16,Peter,,started,negated,already,Peter did not start gambling. Peter had already been gambling.,5.2925, already:5.29
+started,16,Peter,,mentioned,affirmative,already,Peter mentioned gambling. Peter had already been gambling.,5.7633, already:5.76
+started,16,Peter,,mentioned,negated,already,Peter did not mention gambling. Peter had already been gambling.,5.2878, already:5.29
+started,17,Quinn,,started,affirmative,already,Quinn started jogging. Quinn had already been jogging.,5.7580, already:5.76
+started,17,Quinn,,started,negated,already,Quinn did not start jogging. Quinn had already been jogging.,4.9039, already:4.90
+started,17,Quinn,,mentioned,affirmative,already,Quinn mentioned jogging. Quinn had already been jogging.,5.8996, already:5.90
+started,17,Quinn,,mentioned,negated,already,Quinn did not mention jogging. Quinn had already been jogging.,5.2037, already:5.20
+started,18,Rosa,,started,affirmative,already,Rosa started singing. Rosa had already been singing.,5.1552, already:5.16
+started,18,Rosa,,started,negated,already,Rosa did not start singing. Rosa had already been singing.,4.5366, already:4.54
+started,18,Rosa,,mentioned,affirmative,already,Rosa mentioned singing. Rosa had already been singing.,5.2001, already:5.20
+started,18,Rosa,,mentioned,negated,already,Rosa did not mention singing. Rosa had already been singing.,5.1190, already:5.12
+started,19,Sam,,started,affirmative,already,Sam started cycling. Sam had already been cycling.,5.7617, already:5.76
+started,19,Sam,,started,negated,already,Sam did not start cycling. Sam had already been cycling.,5.2478, already:5.25
+started,19,Sam,,mentioned,affirmative,already,Sam mentioned cycling. Sam had already been cycling.,5.8100, already:5.81
+started,19,Sam,,mentioned,negated,already,Sam did not mention cycling. Sam had already been cycling.,5.5145, already:5.51
+started,20,Tara,,started,affirmative,already,Tara started cooking. Tara had already been cooking.,5.0321, already:5.03
+started,20,Tara,,started,negated,already,Tara did not start cooking. Tara had already been cooking.,4.7285, already:4.73
+started,20,Tara,,mentioned,affirmative,already,Tara mentioned cooking. Tara had already been cooking.,5.3343, already:5.33
+started,20,Tara,,mentioned,negated,already,Tara did not mention cooking. Tara had already been cooking.,5.1432, already:5.14
+started,21,Uma,,started,affirmative,already,Uma started playing violin. Uma had already been playing violin.,5.6371, already:5.64
+started,21,Uma,,started,negated,already,Uma did not start playing violin. Uma had already been playing violin.,4.5862, already:4.59
+started,21,Uma,,mentioned,affirmative,already,Uma mentioned playing violin. Uma had already been playing violin.,5.5334, already:5.53
+started,21,Uma,,mentioned,negated,already,Uma did not mention playing violin. Uma had already been playing violin.,5.0767, already:5.08
+started,22,Victor,,started,affirmative,already,Victor started drinking coffee. Victor had already been drinking coffee.,6.6363, already:6.64
+started,22,Victor,,started,negated,already,Victor did not start drinking coffee. Victor had already been drinking coffee.,6.2794, already:6.28
+started,22,Victor,,mentioned,affirmative,already,Victor mentioned drinking coffee. Victor had already been drinking coffee.,6.3268, already:6.33
+started,22,Victor,,mentioned,negated,already,Victor did not mention drinking coffee. Victor had already been drinking coffee.,6.3181, already:6.32
+started,23,Wendy,,started,affirmative,already,Wendy started reading novels. Wendy had already been reading novels.,6.1040, already:6.10
+started,23,Wendy,,started,negated,already,Wendy did not start reading novels. Wendy had already been reading novels.,5.0052, already:5.01
+started,23,Wendy,,mentioned,affirmative,already,Wendy mentioned reading novels. Wendy had already been reading novels.,5.4626, already:5.46
+started,23,Wendy,,mentioned,negated,already,Wendy did not mention reading novels. Wendy had already been reading novels.,5.2672, already:5.27
+started,24,Zach,,started,affirmative,already,Zach started studying late. Zach had already been studying late.,5.6154, already:5.62
+started,24,Zach,,started,negated,already,Zach did not start studying late. Zach had already been studying late.,4.8161, already:4.82
+started,24,Zach,,mentioned,affirmative,already,Zach mentioned studying late. Zach had already been studying late.,5.3737, already:5.37
+started,24,Zach,,mentioned,negated,already,Zach did not mention studying late. Zach had already been studying late.,5.0793, already:5.08
