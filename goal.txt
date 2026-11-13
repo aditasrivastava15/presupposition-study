@@ -1,0 +1,47 @@
+Goal
+
+Does GPT-2, and a second open model, treat a denial of a past habit as more
+surprising after stop than after a control verb that does not presuppose that
+habit? The cost should remain when stop is negated, because a presupposition
+survives negation.
+
+The critical word is never, in sentences such as:
+
+  Amy stopped smoking. Amy had never smoked before.
+  Amy did not stop smoking. Amy had never smoked before.
+  Amy mentioned smoking. Amy had never smoked before.
+  Amy did not mention smoking. Amy had never smoked before.
+
+Mentioned is the control. The prediction is a positive gap: surprisal of never
+after stop, minus surprisal of never after mentioned. The gap that has to hold
+is the negated one, did not stop versus did not mention.
+
+Why the critical word is not the verb
+
+A first test put the contradictory context in front of the verb:
+
+  Amy used to smoke. Amy stopped smoking.
+  Amy has never smoked. Amy stopped smoking.
+
+and compared stopped with mentioned. Has never made both verbs more surprising.
+The extra rise for stopped was 0.05 bits in GPT-2 and 0.21 bits in Pythia-160M.
+Both confidence intervals included zero. A negative context alone is not
+evidence of the presupposition, so the scored word was moved to the later denial.
+
+Result that matches this goal
+
+On 24 habits, surprisal of never after did not stop exceeds surprisal after
+did not mention.
+
+  GPT-2:       0.47 bits, 24 of 24 habits, interval excludes zero.
+  Pythia-160M: 0.56 bits, 23 of 24 habits, interval excludes zero.
+
+Both models show the presupposition cost for negated stop.
+
+Limits, not the main claim
+
+The affirmative sentence stopped shows the gap in GPT-2 (0.50 bits, 22 of 24)
+but not in Pythia-160M. The same negation test with started does not show the
+predicted gap in either model. The claim is about negated stop, not about
+aspectual verbs in general. Henry (chess) and Kara (poetry) are the two GPT-2
+habits in which affirmative stopped did not exceed mentioned.
